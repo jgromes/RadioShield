@@ -1,7 +1,7 @@
-# Eagle project files
-*.epf
-
 # Files without extension
 *
 !/**/
 !*.*
+
+# Eagle project files
+*.epf
