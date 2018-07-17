@@ -155,6 +155,7 @@ LOG:</text>
 <text x="5.042003125" y="4.17799375" size="0.6096" layer="126" font="vector" ratio="15" rot="MR270">NSS</text>
 <text x="20.282003125" y="4.17799375" size="0.6096" layer="126" font="vector" ratio="15" rot="MR270">RESET</text>
 <text x="8.852003125" y="4.17799375" size="0.6096" layer="126" font="vector" ratio="15" rot="MR270">SCK</text>
+<text x="12.065" y="26.162" size="1.524" layer="125" font="vector" ratio="15" align="center">SX1272</text>
 </plain>
 <libraries>
 <library name="headers(2mm)">
@@ -422,7 +423,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <elements>
 <element name="LEFT1" library="headers(2mm)" package="1X10" value="1X10" x="1.27" y="17.399" rot="R270"/>
 <element name="RIGHT1" library="headers(2mm)" package="1X10" value="1X10" x="23.114" y="17.399" rot="R270"/>
-<element name="X1" library="con-coax" package="734120110" value="734120110" x="10.16" y="25.908" smashed="yes" rot="R270"/>
+<element name="X1" library="con-coax" package="734120110" value="734120110" x="5.969" y="22.606" smashed="yes" rot="R180"/>
 <element name="SCK" library="wirepad" package="SMD0,65-1,27" value="" x="8.509" y="5.334" smashed="yes" rot="MR180">
 <attribute name="NAME" x="8.852" y="4.178" size="0.6096" layer="26" font="vector" ratio="12" rot="MR270"/>
 </element>
@@ -541,10 +542,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="ANT">
 <contactref element="X1" pad="1"/>
 <contactref element="ANT" pad="1"/>
-<wire x1="5.969" y1="22.606" x2="5.969" y2="25.019" width="0.4064" layer="16"/>
-<wire x1="5.969" y1="25.019" x2="6.858" y2="25.908" width="0.4064" layer="16"/>
-<via x="6.858" y="25.908" extent="1-16" drill="0.55"/>
-<wire x1="6.858" y1="25.908" x2="8.66" y2="25.908" width="0.4064" layer="1"/>
+<wire x1="5.969" y1="22.606" x2="5.969" y2="25.908" width="0.4064" layer="16"/>
+<via x="5.969" y="25.908" extent="1-16" drill="0.55"/>
+<wire x1="5.969" y1="25.908" x2="5.969" y2="24.106" width="0.4064" layer="1"/>
 </signal>
 <signal name="INT1">
 <contactref element="DIO1" pad="1"/>
