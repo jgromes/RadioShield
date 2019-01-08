@@ -1667,7 +1667,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="5.207" y="23.622" size="0.6096" layer="125" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="5.969" y="24.257" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="U$1" library="con-sim" package="C707-10M006-136-2" value="C707-10M006-136-2" x="10.795" y="9.017" rot="R90"/>
+<element name="U$1" library="con-sim" package="C707-10M006-136-2" value="C707-10M006-136-2" x="10.795" y="8.89" rot="R90"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1774,7 +1774,7 @@ design rules under a new name.</description>
 <signal name="N$4">
 <contactref element="IC1" pad="15"/>
 <contactref element="U$1" pad="P$3"/>
-<wire x1="13.335" y1="3.429" x2="13.335" y2="4.953" width="0.4064" layer="1"/>
+<wire x1="13.335" y1="3.302" x2="13.335" y2="4.953" width="0.4064" layer="1"/>
 <wire x1="13.335" y1="4.953" x2="14.097" y2="5.715" width="0.4064" layer="1"/>
 <via x="14.097" y="5.715" extent="1-16" drill="0.55"/>
 <wire x1="14.097" y1="5.715" x2="14.087" y2="5.705" width="0.4064" layer="16"/>
@@ -1786,7 +1786,7 @@ design rules under a new name.</description>
 <wire x1="12.987" y1="2.774" x2="12.987" y2="10.066" width="0.4064" layer="16"/>
 <wire x1="12.987" y1="10.066" x2="13.335" y2="10.414" width="0.4064" layer="16"/>
 <via x="13.335" y="10.414" extent="1-16" drill="0.55"/>
-<wire x1="13.335" y1="10.414" x2="13.335" y2="14.605" width="0.4064" layer="1"/>
+<wire x1="13.335" y1="10.414" x2="13.335" y2="14.478" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="IC1" pad="17"/>
@@ -1794,7 +1794,7 @@ design rules under a new name.</description>
 <wire x1="11.887" y1="2.774" x2="11.887" y2="9.322" width="0.4064" layer="16"/>
 <wire x1="11.887" y1="9.322" x2="10.795" y2="10.414" width="0.4064" layer="16"/>
 <via x="10.795" y="10.414" extent="1-16" drill="0.55"/>
-<wire x1="10.795" y1="10.414" x2="10.795" y2="14.605" width="0.4064" layer="1"/>
+<wire x1="10.795" y1="10.414" x2="10.795" y2="14.478" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$7">
 <contactref element="IC1" pad="18"/>
@@ -1802,7 +1802,7 @@ design rules under a new name.</description>
 <wire x1="10.787" y1="2.774" x2="10.787" y2="7.882" width="0.4064" layer="16"/>
 <wire x1="10.787" y1="7.882" x2="8.255" y2="10.414" width="0.4064" layer="16"/>
 <via x="8.255" y="10.414" extent="1-16" drill="0.55"/>
-<wire x1="8.255" y1="10.414" x2="8.255" y2="14.605" width="0.4064" layer="1"/>
+<wire x1="8.255" y1="10.414" x2="8.255" y2="14.478" width="0.4064" layer="1"/>
 </signal>
 <signal name="VPP">
 <contactref element="U$1" pad="P$2"/>
