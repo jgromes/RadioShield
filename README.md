@@ -1,18 +1,18 @@
-# KITE Shield
+# Arduino Radio Shield
 
 ## "The Swiss Army Knife of Arduino Radio shields" - [Hackaday.com blog](https://hackaday.com/2018/07/28/why-have-only-one-radio-when-you-can-have-two/)
 
-### Designed for use with [KiteLib](https://github.com/jgromes/KiteLib) - Universal Wireless Arduino library.
+### Designed for use with [RadioLib](https://github.com/jgromes/RadioLib) - Universal Wireless Arduino library.
 
 ## Revision C
-The latest hardware revision, compatible with both 5V and 3.3V Arduino boards.
+The latest hardware revision, compatible with both 5V and 3.3V Arduino boards. The entire project was also rebranded as Radio Shield!
 
 Additional modules:
 * **SIM800C** GSM module
 * **CC1101** FSK module
 * **nRF24L01** 2.4 GHz module
 
-<img src="https://github.com/jgromes/KiteShield/blob/master/doc/revC/png/shield.png" alt="KITE Shield Rev.B" width="48%" height="48%"/>
+<img src="https://github.com/jgromes/KiteShield/blob/master/doc/revC/png/shield.png" alt="Radio Shield Rev.C" width="48%" height="48%"/>
 
 ## Revision B
 Added some improvements over rev. A, such as improved Arduino Mega support and interrupt selection pin header.
@@ -21,7 +21,7 @@ Added some improvements over rev. A, such as improved Arduino Mega support and i
 
 
 ## Revision A
-After a first few prototypes, rev. A is the first fully tested and working KITE Shield.  
+After a first few prototypes, rev. A is the first fully tested and working shield.  
 Supported modules:
 * **ESP8266** WiFi module
 * **HC-05** Bluetooth module
