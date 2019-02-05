@@ -2,7 +2,7 @@
 
 ## "The Swiss Army Knife of Arduino Radio shields" - [Hackaday.com blog](https://hackaday.com/2018/07/28/why-have-only-one-radio-when-you-can-have-two/)
 
-### Designed for use with [RadioLib](https://github.com/jgromes/RadioLib) - Universal Wireless Arduino library.
+### Designed for use with [RadioLib](https://github.com/jgromes/RadioLib) - Universal wireless communication library for Arduino.
 
 ## Revision C
 The latest hardware revision, compatible with both 5V and 3.3V Arduino boards. The entire project was also rebranded as Radio Shield!
