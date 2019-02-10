@@ -15807,6 +15807,18 @@ Source: www.kingbright.com</description>
 <label x="81.28" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
+<net name="PWRKEY" class="0">
+<segment>
+<pinref part="LEFT1" gate="G$1" pin="9"/>
+<wire x1="35.56" y1="20.32" x2="10.16" y2="20.32" width="0.1524" layer="91"/>
+<label x="10.16" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PWRKEY"/>
+<wire x1="127" y1="22.86" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
+<label x="142.24" y="22.86" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

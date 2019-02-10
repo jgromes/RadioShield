@@ -1776,11 +1776,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="R2" pad="1"/>
 <contactref element="RX" pad="A"/>
 <wire x1="5.449" y1="22.352" x2="6.35" y2="22.352" width="0.254" layer="1"/>
-<wire x1="7.747" y1="20.955" x2="6.35" y2="22.352" width="0.254" layer="1"/>
-<wire x1="11.303" y1="22.645" x2="11.303" y2="21.717" width="0.254" layer="1"/>
-<wire x1="11.303" y1="21.717" x2="10.541" y2="20.955" width="0.254" layer="1"/>
-<wire x1="10.541" y1="20.955" x2="8.636" y2="20.955" width="0.254" layer="1"/>
-<wire x1="8.636" y1="20.955" x2="7.747" y2="20.955" width="0.254" layer="1"/>
+<wire x1="7.112" y1="21.59" x2="6.35" y2="22.352" width="0.254" layer="1"/>
+<wire x1="11.303" y1="22.645" x2="11.303" y2="21.971" width="0.254" layer="1"/>
+<wire x1="11.303" y1="21.971" x2="10.922" y2="21.59" width="0.254" layer="1"/>
+<wire x1="10.922" y1="21.59" x2="7.112" y2="21.59" width="0.254" layer="1"/>
 </signal>
 <signal name="SIM_DATA">
 <contactref element="IC1" pad="15"/>
@@ -1843,6 +1842,18 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="15.494" y1="6.731" x2="8.509" y2="6.731" width="0.254" layer="1"/>
 <wire x1="8.509" y1="6.731" x2="5.969" y2="9.271" width="0.254" layer="1"/>
 <wire x1="5.969" y1="9.271" x2="5.969" y2="18.923" width="0.254" layer="1"/>
+</signal>
+<signal name="PWRKEY">
+<contactref element="LEFT1" pad="9"/>
+<contactref element="IC1" pad="39"/>
+<wire x1="5.207" y1="20.828" x2="2.667" y2="18.288" width="0.254" layer="1"/>
+<wire x1="1.27" y1="10.399" x2="2.667" y2="11.796" width="0.254" layer="1"/>
+<wire x1="2.667" y1="11.796" x2="2.667" y2="18.288" width="0.254" layer="1"/>
+<wire x1="12.987" y1="20.574" x2="12.987" y2="21.78133125" width="0.254" layer="16"/>
+<wire x1="12.987" y1="21.78133125" x2="13.40666875" y2="22.201" width="0.254" layer="16"/>
+<via x="13.40666875" y="22.201" extent="1-16" drill="0.55"/>
+<wire x1="13.40666875" y1="22.201" x2="12.03366875" y2="20.828" width="0.254" layer="1"/>
+<wire x1="12.03366875" y1="20.828" x2="5.207" y2="20.828" width="0.254" layer="1"/>
 </signal>
 </signals>
 </board>
