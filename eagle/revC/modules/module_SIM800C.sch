@@ -15546,6 +15546,7 @@ Source: www.kingbright.com</description>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SMCD" package3d_urn="urn:adsk.eagle:package:23434/1" value="470uF"/>
 <part name="U$2" library="con-sim" deviceset="115Q-BCA0" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="4k7"/>
 </parts>
 <sheets>
 <sheet>
@@ -15578,6 +15579,7 @@ Source: www.kingbright.com</description>
 <instance part="C1" gate="G$1" x="134.62" y="27.94"/>
 <instance part="U$2" gate="G$1" x="185.42" y="43.18"/>
 <instance part="GND4" gate="1" x="208.28" y="2.54"/>
+<instance part="R3" gate="G$1" x="228.6" y="43.18" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -15596,10 +15598,10 @@ Source: www.kingbright.com</description>
 <wire x1="137.16" y1="38.1" x2="129.54" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="129.54" y1="38.1" x2="127" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="5.08" x2="129.54" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="5.08" x2="129.54" y2="17.78" width="0.1524" layer="91"/>
 <junction x="129.54" y="38.1"/>
 <pinref part="IC1" gate="G$1" pin="GND(10)"/>
-<wire x1="129.54" y1="20.32" x2="129.54" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="17.78" x2="129.54" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="27.94" x2="129.54" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="30.48" x2="129.54" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="127" y1="27.94" x2="129.54" y2="27.94" width="0.1524" layer="91"/>
@@ -15618,9 +15620,9 @@ Source: www.kingbright.com</description>
 <wire x1="127" y1="53.34" x2="129.54" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="53.34" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
 <junction x="129.54" y="45.72"/>
-<wire x1="134.62" y1="22.86" x2="134.62" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="20.32" x2="129.54" y2="20.32" width="0.1524" layer="91"/>
-<junction x="129.54" y="20.32"/>
+<wire x1="134.62" y1="22.86" x2="134.62" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="17.78" x2="129.54" y2="17.78" width="0.1524" layer="91"/>
+<junction x="129.54" y="17.78"/>
 <pinref part="C1" gate="G$1" pin="-"/>
 </segment>
 <segment>
@@ -15798,8 +15800,12 @@ Source: www.kingbright.com</description>
 <net name="SIM_DET" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="CD"/>
-<wire x1="210.82" y1="35.56" x2="205.74" y2="35.56" width="0.1524" layer="91"/>
-<label x="210.82" y="35.56" size="1.27" layer="95" xref="yes"/>
+<wire x1="233.68" y1="35.56" x2="228.6" y2="35.56" width="0.1524" layer="91"/>
+<label x="233.68" y="35.56" size="1.27" layer="95" xref="yes"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="228.6" y1="35.56" x2="205.74" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="35.56" x2="228.6" y2="38.1" width="0.1524" layer="91"/>
+<junction x="228.6" y="35.56"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="SIM1_DET"/>
@@ -15817,6 +15823,19 @@ Source: www.kingbright.com</description>
 <pinref part="IC1" gate="G$1" pin="PWRKEY"/>
 <wire x1="127" y1="22.86" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
 <label x="142.24" y="22.86" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="VDD_EXT" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="VDD_EXT"/>
+<wire x1="127" y1="20.32" x2="142.24" y2="20.32" width="0.1524" layer="91"/>
+<label x="142.24" y="20.32" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="48.26" x2="228.6" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="50.8" x2="233.68" y2="50.8" width="0.1524" layer="91"/>
+<label x="233.68" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
