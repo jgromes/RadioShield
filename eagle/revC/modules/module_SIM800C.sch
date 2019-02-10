@@ -15435,17 +15435,17 @@ Source: www.kingbright.com</description>
 <library name="con-sim">
 <packages>
 <package name="115Q-BCA0">
-<smd name="P$5" x="-1.27" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
+<smd name="P$5" x="2.54" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
 <smd name="P$12" x="-7.874" y="4.953" dx="2.794" dy="1.524" layer="1" rot="R90"/>
 <smd name="P$13" x="8.255" y="7.239" dx="2.794" dy="1.524" layer="1" rot="R90"/>
-<smd name="P$7" x="-3.81" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
+<smd name="P$7" x="-2.54" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
 <smd name="P$8" x="-5.08" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
 <smd name="P$9" x="-6.35" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
-<smd name="P$4" x="0" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
-<smd name="P$3" x="1.27" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
-<smd name="P$2" x="2.54" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
+<smd name="P$4" x="-3.81" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
+<smd name="P$3" x="-1.27" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
+<smd name="P$2" x="1.27" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
 <smd name="P$1" x="3.81" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
-<smd name="P$6" x="-2.54" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
+<smd name="P$6" x="0" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
 <wire x1="-7.62" y1="6.604" x2="-7.62" y2="8.001" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="8.001" x2="4.445" y2="8.001" width="0.127" layer="21"/>
 <wire x1="4.445" y1="8.001" x2="5.08" y2="8.636" width="0.127" layer="21"/>

@@ -1416,17 +1416,17 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <library name="con-sim">
 <packages>
 <package name="115Q-BCA0">
-<smd name="P$5" x="-1.27" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
+<smd name="P$5" x="2.54" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
 <smd name="P$12" x="-7.874" y="4.953" dx="2.794" dy="1.524" layer="1" rot="R90"/>
 <smd name="P$13" x="8.255" y="7.239" dx="2.794" dy="1.524" layer="1" rot="R90"/>
-<smd name="P$7" x="-3.81" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
+<smd name="P$7" x="-2.54" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
 <smd name="P$8" x="-5.08" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
 <smd name="P$9" x="-6.35" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
-<smd name="P$4" x="0" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
-<smd name="P$3" x="1.27" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
-<smd name="P$2" x="2.54" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
+<smd name="P$4" x="-3.81" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
+<smd name="P$3" x="-1.27" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
+<smd name="P$2" x="1.27" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
 <smd name="P$1" x="3.81" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
-<smd name="P$6" x="-2.54" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
+<smd name="P$6" x="0" y="9.271" dx="2.032" dy="0.762" layer="1" rot="R90"/>
 <wire x1="-7.62" y1="6.604" x2="-7.62" y2="8.001" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="8.001" x2="4.445" y2="8.001" width="0.127" layer="21"/>
 <wire x1="4.445" y1="8.001" x2="5.08" y2="8.636" width="0.127" layer="21"/>
@@ -1784,13 +1784,15 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="SIM_DATA">
 <contactref element="IC1" pad="15"/>
 <via x="12.954" y="8.509" extent="1-16" drill="0.55"/>
-<wire x1="8.509" y1="18.161" x2="6.731" y2="16.383" width="0.254" layer="1"/>
+<wire x1="7.493" y1="17.145" x2="6.731" y2="16.383" width="0.254" layer="1"/>
 <wire x1="7.493" y1="8.636" x2="12.827" y2="8.636" width="0.254" layer="1"/>
 <wire x1="12.827" y1="8.636" x2="12.954" y2="8.509" width="0.254" layer="1"/>
 <wire x1="6.731" y1="16.383" x2="6.731" y2="9.398" width="0.254" layer="1"/>
 <wire x1="6.731" y1="9.398" x2="7.493" y2="8.636" width="0.254" layer="1"/>
 <contactref element="U$2" pad="P$7"/>
-<wire x1="8.509" y1="18.923" x2="8.509" y2="18.161" width="0.254" layer="1"/>
+<wire x1="9.779" y1="18.923" x2="9.779" y2="17.78" width="0.254" layer="1"/>
+<wire x1="9.779" y1="17.78" x2="9.144" y2="17.145" width="0.254" layer="1"/>
+<wire x1="9.144" y1="17.145" x2="7.493" y2="17.145" width="0.254" layer="1"/>
 <wire x1="14.087" y1="2.774" x2="14.087" y2="7.376" width="0.254" layer="16"/>
 <wire x1="14.087" y1="7.376" x2="12.954" y2="8.509" width="0.254" layer="16"/>
 </signal>
@@ -1799,10 +1801,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="12.987" y1="2.774" x2="12.987" y2="5.047" width="0.254" layer="16"/>
 <wire x1="12.987" y1="5.047" x2="11.684" y2="6.35" width="0.254" layer="16"/>
 <via x="11.684" y="16.129" extent="1-16" drill="0.55"/>
-<wire x1="13.589" y1="18.034" x2="11.684" y2="16.129" width="0.254" layer="1"/>
+<wire x1="11.049" y1="16.764" x2="11.684" y2="16.129" width="0.254" layer="1"/>
 <wire x1="11.684" y1="6.35" x2="11.684" y2="16.129" width="0.254" layer="16"/>
 <contactref element="U$2" pad="P$3"/>
-<wire x1="13.589" y1="18.923" x2="13.589" y2="18.034" width="0.254" layer="1"/>
+<wire x1="11.049" y1="18.923" x2="11.049" y2="16.764" width="0.254" layer="1"/>
 </signal>
 <signal name="SIM_RST">
 <contactref element="IC1" pad="17"/>
@@ -1814,8 +1816,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="11.303" y1="17.145" x2="13.208" y2="17.145" width="0.254" layer="16"/>
 <wire x1="13.208" y1="17.145" x2="14.224" y2="16.129" width="0.254" layer="16"/>
 <contactref element="U$2" pad="P$2"/>
-<wire x1="14.859" y1="18.923" x2="14.859" y2="16.764" width="0.254" layer="1"/>
-<wire x1="14.859" y1="16.764" x2="14.224" y2="16.129" width="0.254" layer="1"/>
+<wire x1="13.589" y1="18.923" x2="13.589" y2="16.764" width="0.254" layer="1"/>
+<wire x1="13.589" y1="16.764" x2="14.224" y2="16.129" width="0.254" layer="1"/>
 </signal>
 <signal name="SIM_VDD">
 <contactref element="IC1" pad="18"/>
