@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -220,35 +220,76 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="wirepad">
-<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<library name="RadioShield">
 <packages>
-<package name="SMD0,65-1,27">
-<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
-<smd name="1" x="0" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<text x="-0.8" y="-2.4" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<package name="NRF24">
+<wire x1="-6" y1="9" x2="6" y2="9" width="0.254" layer="51"/>
+<wire x1="6" y1="9" x2="6" y2="-9" width="0.254" layer="51"/>
+<wire x1="6" y1="-9" x2="-6" y2="-9" width="0.254" layer="51"/>
+<wire x1="-6" y1="-9" x2="-6" y2="9" width="0.254" layer="51"/>
+<smd name="3.3V" x="-4.4" y="-9.3" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="GND" x="-3.13" y="-9.3" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="CE" x="-1.86" y="-9.3" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="CS" x="-0.59" y="-9.3" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="SCK" x="0.68" y="-9.3" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="MOSI" x="1.95" y="-9.3" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="MISO" x="3.22" y="-9.3" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="IRQ" x="4.49" y="-9.3" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<text x="-4.4" y="-10.4" size="0.8128" layer="25" rot="R90" align="center-right">3.3V</text>
+<text x="-3.13" y="-10.4" size="0.8128" layer="25" rot="R90" align="center-right">GND</text>
+<text x="-1.86" y="-10.4" size="0.8128" layer="25" rot="R90" align="center-right">CE</text>
+<text x="-0.59" y="-10.4" size="0.8128" layer="25" rot="R90" align="center-right">CS</text>
+<text x="0.68" y="-10.4" size="0.8128" layer="25" rot="R90" align="center-right">SCK</text>
+<text x="1.95" y="-10.4" size="0.8128" layer="25" rot="R90" align="center-right">MOSI</text>
+<text x="3.22" y="-10.4" size="0.8128" layer="25" rot="R90" align="center-right">MISO</text>
+<text x="4.49" y="-10.4" size="0.8128" layer="25" rot="R90" align="center-right">IRQ</text>
+<wire x1="-6" y1="9" x2="6" y2="9" width="0.254" layer="21"/>
+<wire x1="6" y1="9" x2="6" y2="-9" width="0.254" layer="21"/>
+<wire x1="6" y1="-9" x2="5.1" y2="-9" width="0.254" layer="21"/>
+<wire x1="-5" y1="-9" x2="-6" y2="-9" width="0.254" layer="21"/>
+<wire x1="-6" y1="-9" x2="-6" y2="9" width="0.254" layer="21"/>
+<wire x1="3.8" y1="-9" x2="3.9" y2="-9" width="0.254" layer="21"/>
+<wire x1="2.5" y1="-9" x2="2.7" y2="-9" width="0.254" layer="21"/>
+<wire x1="1.2" y1="-9" x2="1.4" y2="-9" width="0.254" layer="21"/>
+<wire x1="0" y1="-9" x2="0.1" y2="-9" width="0.254" layer="21"/>
+<wire x1="-1.3" y1="-9" x2="-1.1" y2="-9" width="0.254" layer="21"/>
+<wire x1="-2.6" y1="-9" x2="-2.4" y2="-9" width="0.254" layer="21"/>
+<wire x1="-3.8" y1="-9" x2="-3.7" y2="-9" width="0.254" layer="21"/>
 </package>
 </packages>
 <symbols>
-<symbol name="PAD">
-<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
-<text x="-1.143" y="1.8542" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<symbol name="NRF24">
+<pin name="CS" x="-2.54" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="SCK" x="2.54" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="CE" x="-7.62" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="MOSI" x="7.62" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="GND" x="-12.7" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="MISO" x="12.7" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="3.3V" x="-17.78" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<pin name="IRQ" x="17.78" y="-25.4" visible="pin" length="middle" rot="R90"/>
+<wire x1="-20.32" y1="-20.32" x2="20.32" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-20.32" x2="20.32" y2="20.32" width="0.254" layer="94"/>
+<wire x1="20.32" y1="20.32" x2="-20.32" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="20.32" x2="-20.32" y2="-20.32" width="0.254" layer="94"/>
+<text x="-20.32" y="22.86" size="1.778" layer="94">nRF24</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SMD1" prefix="PAD" uservalue="yes">
-<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
+<deviceset name="NRF24">
 <gates>
-<gate name="1" symbol="PAD" x="0" y="0"/>
+<gate name="G$1" symbol="NRF24" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SMD0,65-1,27">
+<device name="" package="NRF24">
 <connects>
-<connect gate="1" pin="P" pad="1"/>
+<connect gate="G$1" pin="3.3V" pad="3.3V"/>
+<connect gate="G$1" pin="CE" pad="CE"/>
+<connect gate="G$1" pin="CS" pad="CS"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="IRQ" pad="IRQ"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -270,66 +311,34 @@
 <parts>
 <part name="LEFT1" library="headers(2mm)" deviceset="1X10" device=""/>
 <part name="RIGHT1" library="headers(2mm)" deviceset="1X10" device=""/>
-<part name="SCK" library="wirepad" deviceset="SMD1" device=""/>
-<part name="CSN" library="wirepad" deviceset="SMD1" device=""/>
-<part name="GND" library="wirepad" deviceset="SMD1" device=""/>
-<part name="MOSI" library="wirepad" deviceset="SMD1" device=""/>
-<part name="3.3V" library="wirepad" deviceset="SMD1" device=""/>
-<part name="MISO" library="wirepad" deviceset="SMD1" device=""/>
-<part name="CE" library="wirepad" deviceset="SMD1" device=""/>
-<part name="IRQ" library="wirepad" deviceset="SMD1" device=""/>
+<part name="U$1" library="RadioShield" deviceset="NRF24" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="33.02" y="40.64" size="1.27" layer="95" rot="MR0">VCC</text>
-<text x="33.02" y="38.1" size="1.27" layer="95" rot="MR0">UART_TX</text>
-<text x="33.02" y="35.56" size="1.27" layer="95" rot="MR0">UART_RX</text>
-<text x="33.02" y="33.02" size="1.27" layer="95" rot="MR0">SPI_MISO</text>
-<text x="33.02" y="30.48" size="1.27" layer="95" rot="MR0">GPIO1</text>
-<text x="33.02" y="17.78" size="1.27" layer="95" rot="MR0">GND</text>
-<text x="33.02" y="20.32" size="1.27" layer="95" rot="MR0">GPIO0</text>
-<text x="53.34" y="17.78" size="1.27" layer="95">SPI_MOSI</text>
-<text x="53.34" y="40.64" size="1.27" layer="95">I2C_SDA</text>
-<text x="53.34" y="38.1" size="1.27" layer="95">I2C_SCL</text>
-<text x="53.34" y="35.56" size="1.27" layer="95">SPI_SCK</text>
-<text x="53.34" y="33.02" size="1.27" layer="95">SPI_CS</text>
+<text x="12.7" y="68.58" size="1.27" layer="95">VCC</text>
+<text x="12.7" y="66.04" size="1.27" layer="95">UART_TX</text>
+<text x="12.7" y="63.5" size="1.27" layer="95">UART_RX</text>
+<text x="12.7" y="60.96" size="1.27" layer="95">SPI_MISO</text>
+<text x="12.7" y="58.42" size="1.27" layer="95">GPIO1</text>
+<text x="12.7" y="45.72" size="1.27" layer="95">GND</text>
+<text x="12.7" y="48.26" size="1.27" layer="95">GPIO0</text>
+<text x="12.7" y="7.62" size="1.27" layer="95">SPI_MOSI</text>
+<text x="12.7" y="30.48" size="1.27" layer="95">I2C_SDA</text>
+<text x="12.7" y="27.94" size="1.27" layer="95">I2C_SCL</text>
+<text x="12.7" y="25.4" size="1.27" layer="95">SPI_SCK</text>
+<text x="12.7" y="22.86" size="1.27" layer="95">SPI_CS</text>
 </plain>
 <instances>
-<instance part="LEFT1" gate="G$1" x="38.1" y="27.94" rot="MR0"/>
-<instance part="RIGHT1" gate="G$1" x="48.26" y="27.94"/>
-<instance part="SCK" gate="1" x="68.58" y="35.56" smashed="yes" rot="MR0">
-<attribute name="NAME" x="72.517" y="34.8742" size="1.778" layer="95"/>
-<attribute name="VALUE" x="69.723" y="32.258" size="1.778" layer="96" rot="MR0"/>
+<instance part="LEFT1" gate="G$1" x="7.62" y="55.88" smashed="yes">
+<attribute name="NAME" x="5.08" y="71.755" size="1.27" layer="95" font="vector"/>
+<attribute name="VALUE" x="5.08" y="41.275" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="CSN" gate="1" x="68.58" y="33.02" smashed="yes" rot="MR0">
-<attribute name="NAME" x="72.517" y="32.3342" size="1.778" layer="95"/>
-<attribute name="VALUE" x="69.723" y="29.718" size="1.778" layer="96" rot="MR0"/>
+<instance part="RIGHT1" gate="G$1" x="7.62" y="17.78" smashed="yes">
+<attribute name="NAME" x="5.08" y="33.655" size="1.27" layer="95" font="vector"/>
+<attribute name="VALUE" x="5.08" y="3.175" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="GND" gate="1" x="17.78" y="17.78" smashed="yes" rot="MR180">
-<attribute name="NAME" x="13.843" y="18.4658" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="16.637" y="21.082" size="1.778" layer="96" rot="MR180"/>
-</instance>
-<instance part="MOSI" gate="1" x="68.58" y="17.78" smashed="yes" rot="MR0">
-<attribute name="NAME" x="72.517" y="17.0942" size="1.778" layer="95"/>
-<attribute name="VALUE" x="69.723" y="14.478" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="3.3V" gate="1" x="17.78" y="40.64" smashed="yes">
-<attribute name="NAME" x="13.843" y="39.9542" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="16.637" y="37.338" size="1.778" layer="96"/>
-</instance>
-<instance part="MISO" gate="1" x="17.78" y="33.02" smashed="yes">
-<attribute name="NAME" x="13.843" y="32.3342" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="16.637" y="29.718" size="1.778" layer="96"/>
-</instance>
-<instance part="CE" gate="1" x="17.78" y="20.32" smashed="yes">
-<attribute name="NAME" x="13.843" y="19.6342" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="16.637" y="17.018" size="1.778" layer="96"/>
-</instance>
-<instance part="IRQ" gate="1" x="17.78" y="30.48" smashed="yes">
-<attribute name="NAME" x="13.843" y="29.7942" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="16.637" y="27.178" size="1.778" layer="96"/>
-</instance>
+<instance part="U$1" gate="G$1" x="91.44" y="55.88" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -337,57 +346,75 @@
 <net name="VCC" class="0">
 <segment>
 <pinref part="LEFT1" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="40.64" x2="20.32" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="3.3V" gate="1" pin="P"/>
+<wire x1="10.16" y1="68.58" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="68.58" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="27.94" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="3.3V"/>
+<wire x1="73.66" y1="27.94" x2="73.66" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPI_MISO" class="0">
 <segment>
 <pinref part="LEFT1" gate="G$1" pin="4"/>
-<wire x1="35.56" y1="33.02" x2="20.32" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="MISO" gate="1" pin="P"/>
+<wire x1="10.16" y1="60.96" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="60.96" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="MISO"/>
+<wire x1="53.34" y1="10.16" x2="104.14" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="10.16" x2="104.14" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INT0" class="0">
 <segment>
 <pinref part="LEFT1" gate="G$1" pin="9"/>
-<wire x1="35.56" y1="20.32" x2="20.32" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="CE" gate="1" pin="P"/>
+<wire x1="10.16" y1="48.26" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="48.26" x2="58.42" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="CE"/>
+<wire x1="58.42" y1="17.78" x2="83.82" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="17.78" x2="83.82" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPI_MOSI" class="0">
 <segment>
 <pinref part="RIGHT1" gate="G$1" pin="10"/>
-<wire x1="50.8" y1="17.78" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="MOSI" gate="1" pin="P"/>
+<pinref part="U$1" gate="G$1" pin="MOSI"/>
+<wire x1="10.16" y1="7.62" x2="99.06" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="7.62" x2="99.06" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPI_SCK" class="0">
 <segment>
 <pinref part="RIGHT1" gate="G$1" pin="3"/>
-<wire x1="50.8" y1="35.56" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="SCK" gate="1" pin="P"/>
+<pinref part="U$1" gate="G$1" pin="SCK"/>
+<wire x1="10.16" y1="25.4" x2="93.98" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="25.4" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPI_CS" class="0">
 <segment>
 <pinref part="RIGHT1" gate="G$1" pin="4"/>
-<wire x1="50.8" y1="33.02" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="CSN" gate="1" pin="P"/>
+<pinref part="U$1" gate="G$1" pin="CS"/>
+<wire x1="10.16" y1="22.86" x2="88.9" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="22.86" x2="88.9" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="LEFT1" gate="G$1" pin="10"/>
-<wire x1="20.32" y1="17.78" x2="35.56" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="GND" gate="1" pin="P"/>
+<wire x1="10.16" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="45.72" x2="60.96" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="60.96" y1="20.32" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="20.32" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INT1" class="0">
 <segment>
-<pinref part="IRQ" gate="1" pin="P"/>
 <pinref part="LEFT1" gate="G$1" pin="5"/>
-<wire x1="20.32" y1="30.48" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="58.42" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="58.42" x2="55.88" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="IRQ"/>
+<wire x1="55.88" y1="15.24" x2="109.22" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="15.24" x2="109.22" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
