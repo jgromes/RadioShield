@@ -313,7 +313,7 @@ Source: &lt;a href="http://www.molex.com/pdm_docs/sd/734120110_sd.pdf"&gt; Data 
 <wire x1="5.4" y1="1.3" x2="5.4" y2="-4.7" width="0.254" layer="21"/>
 <wire x1="5.4" y1="-4.7" x2="-0.6" y2="-4.7" width="0.254" layer="21"/>
 <wire x1="-0.6" y1="-4.7" x2="-0.6" y2="1.3" width="0.254" layer="21"/>
-<text x="2.4" y="-1.7" size="0.8128" layer="21" rot="SR0" align="center">SX1278</text>
+<text x="2.4" y="-1.7" size="0.8128" layer="25" rot="SR0" align="center">SX1278</text>
 <circle x="0.2" y="0.5" radius="0.1" width="0.254" layer="21"/>
 <smd name="GND@1" x="-6.985" y="-8.6" dx="1.27" dy="0.635" layer="1" rot="R90"/>
 <smd name="DIO1" x="-5.715" y="-8.6" dx="1.27" dy="0.635" layer="1" rot="R90"/>

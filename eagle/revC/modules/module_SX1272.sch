@@ -314,7 +314,7 @@ Source: &lt;a href="http://www.molex.com/pdm_docs/sd/734120110_sd.pdf"&gt; Data 
 <wire x1="2.9" y1="-5.1" x2="-3.1" y2="-5.1" width="0.254" layer="21"/>
 <wire x1="-3.1" y1="-5.1" x2="-3.1" y2="0.9" width="0.254" layer="21"/>
 <circle x="-2.4" y="0.2" radius="0.1" width="0.254" layer="21"/>
-<text x="-0.1" y="-2.1" size="0.8128" layer="21" rot="SR0" align="center">SX1272</text>
+<text x="-0.1" y="-2.1" size="0.8128" layer="25" rot="SR0" align="center">SX1272</text>
 <smd name="DIO5" x="0" y="-8.8" dx="1.27" dy="0.635" layer="1" rot="R90"/>
 <smd name="DIO4" x="-1.27" y="-8.8" dx="1.27" dy="0.635" layer="1" rot="R90"/>
 <smd name="DIO3" x="-2.54" y="-8.8" dx="1.27" dy="0.635" layer="1" rot="R90"/>

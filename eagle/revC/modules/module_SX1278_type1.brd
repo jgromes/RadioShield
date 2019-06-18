@@ -126,7 +126,7 @@
 <wire x1="17.907" y1="32.893" x2="24.257" y2="26.543" width="0.254" layer="20"/>
 <wire x1="24.257" y1="26.543" x2="24.257" y2="0.127" width="0.254" layer="20"/>
 <wire x1="24.257" y1="0.127" x2="0.127" y2="0.127" width="0.254" layer="20"/>
-<text x="12.192" y="30.48" size="1.778" layer="51" ratio="15" rot="SR0" align="center">SX1278</text>
+<text x="12.192" y="30.48" size="1.778" layer="25" ratio="15" rot="SR0" align="center">SX1278</text>
 </plain>
 <libraries>
 <library name="headers(2mm)">
@@ -212,7 +212,7 @@ Source:  Data sheet </description>
 <wire x1="5.4" y1="1.3" x2="5.4" y2="-4.7" width="0.254" layer="21"/>
 <wire x1="5.4" y1="-4.7" x2="-0.6" y2="-4.7" width="0.254" layer="21"/>
 <wire x1="-0.6" y1="-4.7" x2="-0.6" y2="1.3" width="0.254" layer="21"/>
-<text x="2.4" y="-1.7" size="0.8128" layer="21" rot="SR0" align="center">SX1278</text>
+<text x="2.4" y="-1.7" size="0.8128" layer="25" rot="SR0" align="center">SX1278</text>
 <circle x="0.2" y="0.5" radius="0.1" width="0.254" layer="21"/>
 <smd name="GND@1" x="-6.985" y="-8.6" dx="1.27" dy="0.635" layer="1" rot="R90"/>
 <smd name="DIO1" x="-5.715" y="-8.6" dx="1.27" dy="0.635" layer="1" rot="R90"/>

@@ -461,8 +461,7 @@ Source: &lt;a href="http://www.molex.com/pdm_docs/sd/734120110_sd.pdf"&gt; Data 
 <pinref part="U$1" gate="G$1" pin="GND@1"/>
 <wire x1="83.82" y1="53.34" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="GND@5"/>
-<wire x1="81.28" y1="53.34" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="48.26" x2="81.28" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="53.34" x2="81.28" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="45.72" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="43.18" x2="81.28" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="38.1" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
@@ -477,9 +476,6 @@ Source: &lt;a href="http://www.molex.com/pdm_docs/sd/734120110_sd.pdf"&gt; Data 
 <pinref part="U$1" gate="G$1" pin="GND@2"/>
 <wire x1="83.82" y1="43.18" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
 <junction x="81.28" y="43.18"/>
-<pinref part="U$1" gate="G$1" pin="SW"/>
-<wire x1="83.82" y1="48.26" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
-<junction x="81.28" y="48.26"/>
 <pinref part="LEFT1" gate="G$1" pin="10"/>
 <wire x1="10.16" y1="45.72" x2="81.28" y2="45.72" width="0.1524" layer="91"/>
 <junction x="81.28" y="45.72"/>

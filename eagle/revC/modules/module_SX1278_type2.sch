@@ -313,7 +313,7 @@ Source: &lt;a href="http://www.molex.com/pdm_docs/sd/734120110_sd.pdf"&gt; Data 
 <wire x1="5" y1="0.6" x2="5" y2="-5.4" width="0.254" layer="21"/>
 <wire x1="5" y1="-5.4" x2="-1" y2="-5.4" width="0.254" layer="21"/>
 <wire x1="-1" y1="-5.4" x2="-1" y2="0.6" width="0.254" layer="21"/>
-<text x="2" y="-2.4" size="0.8128" layer="21" rot="SR0" align="center">SX1278</text>
+<text x="2" y="-2.4" size="0.8128" layer="25" rot="SR0" align="center">SX1278</text>
 <circle x="-0.2" y="-0.2" radius="0.1" width="0.254" layer="21"/>
 <smd name="ANT" x="-8.6" y="7" dx="2.54" dy="1.27" layer="1"/>
 <smd name="GND@1" x="-8.6" y="5" dx="2.54" dy="1.27" layer="1"/>
@@ -351,22 +351,22 @@ Source: &lt;a href="http://www.molex.com/pdm_docs/sd/734120110_sd.pdf"&gt; Data 
 <wire x1="-8" y1="-2.1" x2="-8" y2="-1.9" width="0.254" layer="21"/>
 <wire x1="-8" y1="-4.1" x2="-8" y2="-3.9" width="0.254" layer="21"/>
 <wire x1="-8" y1="-6.1" x2="-8" y2="-5.9" width="0.254" layer="21"/>
-<text x="-10.3" y="7" size="0.8128" layer="21" rot="SR0" align="center-right">ANT</text>
-<text x="-10.3" y="5" size="0.8128" layer="21" rot="SR0" align="center-right">GND</text>
-<text x="-10.3" y="3.1" size="0.8128" layer="21" rot="SR0" align="center-right">DIO3</text>
-<text x="-10.3" y="1" size="0.8128" layer="21" rot="SR0" align="center-right">DIO4</text>
-<text x="-10.3" y="-1" size="0.8128" layer="21" rot="SR0" align="center-right">VCC</text>
-<text x="-10.3" y="-3" size="0.8128" layer="21" rot="SR0" align="center-right">DIO0</text>
-<text x="-10.3" y="-5" size="0.8128" layer="21" rot="SR0" align="center-right">DIO1</text>
-<text x="-10.3" y="-7" size="0.8128" layer="21" rot="SR0" align="center-right">DIO2</text>
-<text x="10.3" y="7" size="0.8128" layer="21" rot="SR0" align="center-left">GND</text>
-<text x="10.3" y="5" size="0.8128" layer="21" rot="SR0" align="center-left">DIO5</text>
-<text x="10.3" y="3" size="0.8128" layer="21" rot="SR0" align="center-left">RESET</text>
-<text x="10.3" y="1" size="0.8128" layer="21" rot="SR0" align="center-left">NSS</text>
-<text x="10.3" y="-1" size="0.8128" layer="21" rot="SR0" align="center-left">SCK</text>
-<text x="10.3" y="-3" size="0.8128" layer="21" rot="SR0" align="center-left">MOSI</text>
-<text x="10.3" y="-5" size="0.8128" layer="21" rot="SR0" align="center-left">MISO</text>
-<text x="10.3" y="-7" size="0.8128" layer="21" rot="SR0" align="center-left">GND</text>
+<text x="-10.3" y="7" size="0.8128" layer="25" rot="SR0" align="center-right">ANT</text>
+<text x="-10.3" y="5" size="0.8128" layer="25" rot="SR0" align="center-right">GND</text>
+<text x="-10.3" y="3.1" size="0.8128" layer="25" rot="SR0" align="center-right">DIO3</text>
+<text x="-10.3" y="1" size="0.8128" layer="25" rot="SR0" align="center-right">DIO4</text>
+<text x="-10.3" y="-1" size="0.8128" layer="25" rot="SR0" align="center-right">VCC</text>
+<text x="-10.3" y="-3" size="0.8128" layer="25" rot="SR0" align="center-right">DIO0</text>
+<text x="-10.3" y="-5" size="0.8128" layer="25" rot="SR0" align="center-right">DIO1</text>
+<text x="-10.3" y="-7" size="0.8128" layer="25" rot="SR0" align="center-right">DIO2</text>
+<text x="10.3" y="7" size="0.8128" layer="25" rot="SR0" align="center-left">GND</text>
+<text x="10.3" y="5" size="0.8128" layer="25" rot="SR0" align="center-left">DIO5</text>
+<text x="10.3" y="3" size="0.8128" layer="25" rot="SR0" align="center-left">RESET</text>
+<text x="10.3" y="1" size="0.8128" layer="25" rot="SR0" align="center-left">NSS</text>
+<text x="10.3" y="-1" size="0.8128" layer="25" rot="SR0" align="center-left">SCK</text>
+<text x="10.3" y="-3" size="0.8128" layer="25" rot="SR0" align="center-left">MOSI</text>
+<text x="10.3" y="-5" size="0.8128" layer="25" rot="SR0" align="center-left">MISO</text>
+<text x="10.3" y="-7" size="0.8128" layer="25" rot="SR0" align="center-left">GND</text>
 </package>
 </packages>
 <symbols>

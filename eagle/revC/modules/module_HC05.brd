@@ -127,7 +127,7 @@
 <wire x1="17.907" y1="32.893" x2="24.257" y2="26.543" width="0.254" layer="20"/>
 <wire x1="24.257" y1="26.543" x2="24.257" y2="0.127" width="0.254" layer="20"/>
 <wire x1="24.257" y1="0.127" x2="0.127" y2="0.127" width="0.254" layer="20"/>
-<text x="12.192" y="30.48" size="1.778" layer="51" ratio="15" rot="SR0" align="center">HC-05</text>
+<text x="12.192" y="30.48" size="1.778" layer="25" ratio="15" rot="SR0" align="center">HC-05</text>
 <text x="11.557" y="21.336" size="0.8128" layer="125" font="vector" ratio="12" rot="SR0" align="top-left">R1</text>
 <text x="11.557" y="25.4" size="0.8128" layer="125" font="vector" ratio="12" rot="SR0">R2</text>
 <text x="4.572" y="21.59" size="0.8128" layer="125" font="vector" ratio="12" rot="SR0" align="top-left">RX</text>

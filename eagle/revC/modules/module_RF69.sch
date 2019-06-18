@@ -314,7 +314,7 @@ Source: &lt;a href="http://www.molex.com/pdm_docs/sd/734120110_sd.pdf"&gt; Data 
 <wire x1="3.6" y1="-2.6" x2="-1.4" y2="-2.6" width="0.254" layer="21"/>
 <wire x1="-1.4" y1="-2.6" x2="-1.4" y2="2.4" width="0.254" layer="21"/>
 <circle x="-0.7" y="1.7" radius="0.1" width="0.254" layer="21"/>
-<text x="1.1" y="-0.1" size="0.8128" layer="21" rot="SR0" align="center">RF69</text>
+<text x="1.1" y="-0.1" size="0.8128" layer="25" rot="SR0" align="center">RF69</text>
 <smd name="DIO3" x="-8.3" y="0" dx="2.54" dy="1.27" layer="1"/>
 <smd name="GND@1" x="-8.3" y="2" dx="2.54" dy="1.27" layer="1"/>
 <smd name="MOSI" x="-8.3" y="-2" dx="2.54" dy="1.27" layer="1"/>

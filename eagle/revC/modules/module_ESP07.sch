@@ -6781,22 +6781,22 @@ Source: www.kingbright.com</description>
 <smd name="GPIO2" x="8.3" y="-5.1" dx="0.9" dy="1.7" layer="1" rot="R90"/>
 <smd name="GPIO15" x="8.3" y="-7.1" dx="0.9" dy="1.7" layer="1" rot="R90"/>
 <smd name="GND" x="8.3" y="-9.1" dx="0.9" dy="1.7" layer="1" rot="R90"/>
-<text x="-7" y="4.9" size="0.8128" layer="21" rot="SR0" align="center-left">RST</text>
-<text x="-7" y="2.9" size="0.8128" layer="21" rot="SR0" align="center-left">ADC</text>
-<text x="-7" y="0.9" size="0.8128" layer="21" rot="SR0" align="center-left">CH_PD</text>
-<text x="-7" y="-1.1" size="0.8128" layer="21" rot="SR0" align="center-left">GPIO16</text>
-<text x="-7" y="-3.1" size="0.8128" layer="21" rot="SR0" align="center-left">GPIO14</text>
-<text x="-7" y="-5.1" size="0.8128" layer="21" rot="SR0" align="center-left">GPIO12</text>
-<text x="-7" y="-7.1" size="0.8128" layer="21" rot="SR0" align="center-left">GPIO13</text>
-<text x="-7.1" y="-9.1" size="0.8128" layer="21" rot="SR0" align="center-left">VCC</text>
-<text x="7" y="-9.1" size="0.8128" layer="21" rot="SR0" align="center-right">GND</text>
-<text x="7" y="-7.1" size="0.8128" layer="21" rot="SR0" align="center-right">GPIO15</text>
-<text x="7" y="-5.1" size="0.8128" layer="21" rot="SR0" align="center-right">GPIO2</text>
-<text x="7" y="-3.1" size="0.8128" layer="21" rot="SR0" align="center-right">GPIO0</text>
-<text x="7" y="-1.1" size="0.8128" layer="21" rot="SR0" align="center-right">GPIO4</text>
-<text x="7" y="0.9" size="0.8128" layer="21" rot="SR0" align="center-right">GPIO5</text>
-<text x="7" y="2.9" size="0.8128" layer="21" rot="SR0" align="center-right">RX</text>
-<text x="7" y="4.9" size="0.8128" layer="21" rot="SR0" align="center-right">TX</text>
+<text x="-7" y="4.9" size="0.8128" layer="25" rot="SR0" align="center-left">RST</text>
+<text x="-7" y="2.9" size="0.8128" layer="25" rot="SR0" align="center-left">ADC</text>
+<text x="-7" y="0.9" size="0.8128" layer="25" rot="SR0" align="center-left">CH_PD</text>
+<text x="-7" y="-1.1" size="0.8128" layer="25" rot="SR0" align="center-left">GPIO16</text>
+<text x="-7" y="-3.1" size="0.8128" layer="25" rot="SR0" align="center-left">GPIO14</text>
+<text x="-7" y="-5.1" size="0.8128" layer="25" rot="SR0" align="center-left">GPIO12</text>
+<text x="-7" y="-7.1" size="0.8128" layer="25" rot="SR0" align="center-left">GPIO13</text>
+<text x="-7.1" y="-9.1" size="0.8128" layer="25" rot="SR0" align="center-left">VCC</text>
+<text x="7" y="-9.1" size="0.8128" layer="25" rot="SR0" align="center-right">GND</text>
+<text x="7" y="-7.1" size="0.8128" layer="25" rot="SR0" align="center-right">GPIO15</text>
+<text x="7" y="-5.1" size="0.8128" layer="25" rot="SR0" align="center-right">GPIO2</text>
+<text x="7" y="-3.1" size="0.8128" layer="25" rot="SR0" align="center-right">GPIO0</text>
+<text x="7" y="-1.1" size="0.8128" layer="25" rot="SR0" align="center-right">GPIO4</text>
+<text x="7" y="0.9" size="0.8128" layer="25" rot="SR0" align="center-right">GPIO5</text>
+<text x="7" y="2.9" size="0.8128" layer="25" rot="SR0" align="center-right">RX</text>
+<text x="7" y="4.9" size="0.8128" layer="25" rot="SR0" align="center-right">TX</text>
 <wire x1="-8" y1="10.6" x2="8" y2="10.6" width="0.254" layer="21"/>
 <wire x1="8" y1="10.6" x2="8" y2="5.6" width="0.254" layer="21"/>
 <wire x1="8" y1="-9.8" x2="8" y2="-10.6" width="0.254" layer="21"/>

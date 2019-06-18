@@ -15289,8 +15289,7 @@ Source: www.kingbright.com</description>
 <smd name="40" x="-2.2" y="8.9" dx="1.8" dy="0.6" layer="1" rot="R90"/>
 <smd name="41" x="-3.3" y="8.9" dx="1.8" dy="0.6" layer="1" rot="R90"/>
 <smd name="42" x="-4.4" y="8.9" dx="1.8" dy="0.6" layer="1" rot="R90"/>
-<text x="-0.360659375" y="-2.491359375" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-0.360659375" y="2.588640625" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="-0.360659375" y="2.588640625" size="1.27" layer="25" align="center">SIM800C</text>
 <wire x1="-7.85" y1="8.8" x2="7.85" y2="8.8" width="0.254" layer="51"/>
 <wire x1="7.85" y1="8.8" x2="7.85" y2="-8.8" width="0.254" layer="51"/>
 <wire x1="7.85" y1="-8.8" x2="-7.85" y2="-8.8" width="0.254" layer="51"/>

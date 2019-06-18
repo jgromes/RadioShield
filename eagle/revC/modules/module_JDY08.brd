@@ -127,17 +127,17 @@
 <wire x1="17.907" y1="32.893" x2="24.257" y2="26.543" width="0.254" layer="20"/>
 <wire x1="24.257" y1="26.543" x2="24.257" y2="0.127" width="0.254" layer="20"/>
 <wire x1="24.257" y1="0.127" x2="0.127" y2="0.127" width="0.254" layer="20"/>
-<text x="16.383" y="1.778" size="0.8128" layer="51" font="vector" ratio="15" rot="SR0">RST</text>
-<text x="11.303" y="1.778" size="0.8128" layer="51" font="vector" ratio="15" rot="SR0">DAT</text>
-<text x="13.843" y="1.778" size="0.8128" layer="51" font="vector" ratio="15" rot="SR0">CLK</text>
-<text x="8.763" y="1.778" size="0.8128" layer="51" font="vector" ratio="15" rot="SR0">VCC</text>
-<text x="6.096" y="1.778" size="0.8128" layer="51" font="vector" ratio="15" rot="SR0">GND</text>
-<text x="18.161" y="1.778" size="0.8128" layer="52" font="vector" ratio="15" rot="SMR0">RST</text>
-<text x="13.081" y="1.778" size="0.8128" layer="52" font="vector" ratio="15" rot="SMR0">DAT</text>
-<text x="15.621" y="1.778" size="0.8128" layer="52" font="vector" ratio="15" rot="SMR0">CLK</text>
-<text x="10.541" y="1.778" size="0.8128" layer="52" font="vector" ratio="15" rot="SMR0">VCC</text>
-<text x="8.128" y="1.778" size="0.8128" layer="52" font="vector" ratio="15" rot="SMR0">GND</text>
-<text x="12.192" y="30.48" size="1.778" layer="51" ratio="15" rot="SR0" align="center">JDY-08</text>
+<text x="16.383" y="1.778" size="0.8128" layer="25" font="vector" ratio="15" rot="SR0">RST</text>
+<text x="11.303" y="1.778" size="0.8128" layer="25" font="vector" ratio="15" rot="SR0">DAT</text>
+<text x="13.843" y="1.778" size="0.8128" layer="25" font="vector" ratio="15" rot="SR0">CLK</text>
+<text x="8.763" y="1.778" size="0.8128" layer="25" font="vector" ratio="15" rot="SR0">VCC</text>
+<text x="6.096" y="1.778" size="0.8128" layer="25" font="vector" ratio="15" rot="SR0">GND</text>
+<text x="18.161" y="1.778" size="0.8128" layer="26" font="vector" ratio="15" rot="SMR0">RST</text>
+<text x="13.081" y="1.778" size="0.8128" layer="26" font="vector" ratio="15" rot="SMR0">DAT</text>
+<text x="15.621" y="1.778" size="0.8128" layer="26" font="vector" ratio="15" rot="SMR0">CLK</text>
+<text x="10.541" y="1.778" size="0.8128" layer="26" font="vector" ratio="15" rot="SMR0">VCC</text>
+<text x="8.128" y="1.778" size="0.8128" layer="26" font="vector" ratio="15" rot="SMR0">GND</text>
+<text x="12.192" y="30.48" size="1.778" layer="25" ratio="15" rot="SR0" align="center">JDY-08</text>
 <text x="7.747" y="12.827" size="0.8128" layer="125" font="vector" ratio="12" rot="SR0">R1</text>
 <text x="12.192" y="25.527" size="0.8128" layer="125" font="vector" ratio="12" rot="SR0">R2</text>
 <text x="12.192" y="21.209" size="0.8128" layer="125" font="vector" ratio="12" rot="SR0" align="top-left">R3</text>
